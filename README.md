@@ -1,7 +1,7 @@
 # ELF Executable Loader
 
 ## Overview
-This repository contains a C implementation of an ELF Executable Loader as part of the Operating Systems homework (Homework no. 1). The loader is designed to handle SIGSEGV signals and implement demand paging for ELF executables.
+This repository contains a C implementation of an ELF Executable Loader. The loader is designed to handle SIGSEGV signals and implement demand paging for ELF executables.
 
 ## Implementation Details
 The primary focus of the implementation is on the `segv_handler` function, which serves as the signal handler for SIGSEGV. Here's an overview of the key steps:
